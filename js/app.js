@@ -9,17 +9,3 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
     id: 'mobot11.1dba3612',
     accessToken: 'pk.eyJ1IjoibW9ib3QxMSIsImEiOiI4N2FjYWZhNWQ4YmU5Yjk2MzFlZjkxMjMzNzNmMGQzNiJ9.kkMw6O4lV-74eEs-MgHvkQ'
 }).addTo(map);
-
-var marker = L.marker([51.5, -0.09]).addTo(map);
-
-var circle = L.circle([51.508, -0.11], 500 , {
-  color: 'red',
-  fillColor: '#f03',
-  fillOpacity: 0.5
-}).addTo(map);
-
-var polygon = L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
-]).addTo(map);
